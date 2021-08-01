@@ -7,8 +7,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import seongjin.appetit.dto.UserDto;
-import seongjin.appetit.service.UserService;
+import seongjin.appetit.dto.user.UserDto;
+import seongjin.appetit.service.user.UserService;
 import seongjin.appetit.vo.RequestUser;
 import seongjin.appetit.vo.ResponseUser;
 

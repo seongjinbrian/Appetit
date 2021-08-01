@@ -1,14 +1,13 @@
 package seongjin.appetit.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.User;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import seongjin.appetit.dto.UserDto;
-import seongjin.appetit.jpa.UserEntity;
-import seongjin.appetit.jpa.UserRepository;
+import seongjin.appetit.jpa.user.UserEntity;
+import seongjin.appetit.jpa.user.UserRepository;
 
 import java.util.UUID;
 
