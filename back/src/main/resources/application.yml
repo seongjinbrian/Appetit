@@ -1,8 +1,14 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/delivery?autoReconnect=true
+    url: jdbc:mysql://localhost:3306/delivery
     username: root
     password: bard2525
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
 server:
   port: 8050
+
+greeting:
+  message: Welcome to the Appetit
