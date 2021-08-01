@@ -24,7 +24,7 @@ public class RestaurantController {
     public ResponseEntity addRestaurant(@RequestBody RestaurantDto restaurant) {
         // shop
         restaurantService.createRestaurant(restaurant);
-        return ResponseEntity.status(HttpStatus.CREATED).body("Hi");
+        return ResponseEntity.status(HttpStatus.CREATED).body("success");
     }
 
 
