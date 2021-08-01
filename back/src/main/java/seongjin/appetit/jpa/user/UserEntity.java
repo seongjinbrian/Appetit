@@ -1,4 +1,4 @@
-package seongjin.appetit.jpa;
+package seongjin.appetit.jpa.user;
 
 import lombok.Data;
 import javax.persistence.*;

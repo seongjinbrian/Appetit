@@ -1,2 +1,7 @@
-package seongjin.appetit.service.Restaurant;public interface RestaurantService {
+package seongjin.appetit.service.restaurant;
+
+import seongjin.appetit.dto.restaurant.RestaurantDto;
+
+public interface RestaurantService {
+    RestaurantDto createRestaurant(RestaurantDto restaurantDto);
 }

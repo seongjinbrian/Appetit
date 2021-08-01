@@ -1,4 +1,4 @@
-package seongjin.appetit.dto;
+package seongjin.appetit.dto.user;
 
 import lombok.Data;
 
